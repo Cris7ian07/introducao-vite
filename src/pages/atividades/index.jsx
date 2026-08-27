@@ -5,7 +5,8 @@ export default function Atividades () {
     return (
         <div className='containerVertical'>
             <h1>Atividades</h1>
-            <div className={styles.cardExemplos}>
+            
+            <div className={styles.cardAtividades}></div>   
                 <Link to="/atividades/1">Atividade 1</Link>  
                 <Link to="/atividades/2">Atividade 2</Link>  
                 <Link to="/atividades/3">Atividade 3</Link>  
@@ -17,6 +18,6 @@ export default function Atividades () {
                 <Link to="/atividades/9">Atividade 9</Link>  
                 <Link to="/atividades/10">Atividade 10</Link>  
             </div>            
-        </div>
+        
     );
 }
